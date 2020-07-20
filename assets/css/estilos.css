@@ -449,7 +449,7 @@ body {
 /* EVENTO BANNER PRINCIPAL */
 .portada_evento {
   background-color: #52b100;
-  background-image: url("/assets/img/pic_004.jpg");
+  background-image: url("../img/pic_004.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -460,7 +460,7 @@ body {
 @media screen and (max-width: 39.9375em) {
   .portada_evento {
     background-color: #52b100;
-    background-image: url("/assets/img/pic_004.jpg");
+    background-image: url("../img/pic_004.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -470,7 +470,7 @@ body {
 @media screen and (min-width: 40em) {
   .portada_evento {
     background-color: #52b100;
-    background-image: url("/assets/img/pic_004.jpg");
+    background-image: url("../img/pic_004.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -492,7 +492,7 @@ body {
 /* EVENTO BANNER INTERNO */
 .portada_evento_interno {
   background-color: #52b100;
-  background-image: url("/assets/img/pic_004.jpg");
+  background-image: url("../img/pic_004.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -503,7 +503,7 @@ body {
 @media screen and (max-width: 39.9375em) {
   .portada_evento_interno {
     background-color: #52b100;
-    background-image: url("/assets/img/pic_004.jpg");
+    background-image: url("../img/pic_004.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -513,7 +513,7 @@ body {
 @media screen and (min-width: 40em) {
   .portada_evento_interno {
     background-color: #52b100;
-    background-image: url("/assets/img/pic_004.jpg");
+    background-image: url("../img/pic_004.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
