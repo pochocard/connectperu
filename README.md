@@ -1,2 +1,0 @@
-# connectperu
-Desarrollo frontend

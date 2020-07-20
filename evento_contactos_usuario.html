@@ -15,54 +15,64 @@
 	<div class="off-canvas-content" data-off-canvas-content>
 		
 		<header id="header">
-			<div class="top_home">
+			<div class="top_evento">
 				<div class="grid-x">
 		
-					<div class="logo_empresa cell small-4 medium-4 small-order-1">
-						<a href="index.html">
-							<img src="/assets/img/logo_connectperu.png">
+					<div class="logo_empresa cell small-11 medium-11 small-order-1">
+						<a href="#">
+							<img src="/assets/img/logo_empresa_demo_movistar.png">
 						</a>
 					</div>
 		
-					<div class="cell small-8 medium-8 small-order-2">
-						<ul class="menu_home menu" style="display: flex; justify-content: flex-end; align-items: center;">
-							<li><a class="padding-bottom-0" href="usuario_perfil.html"><i class="fi-torso"></i> Mi perfil</a></li>
-							<li><a class="padding-bottom-0" href="acceso_form_connectperu.html"><i class="fi-arrow-right"></i> Salir</a></li>
-						</ul>			</div>
+					<div class="menu_evento cell small-1 medium-1 small-order-2" style="display: flex; justify-content: flex-end; align-items: center;">
+						<button type="button" data-toggle="offCanvas"><i class="fi-list"></i></button>
+					</div>
 		
 				</div>
 			</div>
 		</header>
-		<div class="acceso_plataforma_eventos grid-container">
-			<div class="grid-x grid-y">
-				<div class="acceso_form cell small-12 medium-6 medium-offset-3 large-6 large-offset-3">
-					<div class="logo_empresa_login">
-						<a href="#">
-							<img src="/assets/img/logo_connectperu_black.png">
-						</a>
-					</div>
-					<form>
-					    <div>
-					      <label>
-					        <input type="text" placeholder="Correo electrónico">
-					      </label>
-					    </div>
-					    <div>
-					      <label>
-					        <input type="password" placeholder="Contraseña">
-					      </label>
-					      <fieldset>
-					        <input id="checkbox1" type="checkbox"><label for="checkbox1">Recordar contraseña</label>
-					      </fieldset>
-					      <input type="submit" onclick="location.href='usuario_perfil.html';" class="boton_login button expanded" value="Iniciar sesión">
-					    </div>
-					    <div class="link_olvide_password">
-						    <a href="#">Olvidé mi contraseña</a>
-					    </div>
-					</form>
+		<!-- EVENTO BANNER INTERNO -->
+		<div class="portada_evento_interno grid-x">
+		
+			<div class="logo_evento_banner_interno">
+				<img src="/assets/img/logo_evento.png">
+			</div>
+		
+			<div class="icono_interno text-center">
+				<i class="fi-torsos-all"></i>
+				<p>Contactos</p>
+			</div>
+		
+		</div>
+		<!-- /EVENTO BANNER INTERNO -->
+		
+		<!-- EVENTO / CONTACTO / USUARIO -->
+		<div class="usuario_block grid-container">
+		
+			<div class="usuario_perfil grid-x">
+		
+				<div class="usuario_foto cell small-12 large-12">
+					<figure>
+						<img src="assets/img/profile_picture.png">
+					</figure>
+				</div>
+		
+				<div class="usuario_info cell small-12 large-12 text-center">
+					<p class="usuario_nombre">Nombre Apellido</p>
+					<p class="usuario_empresa">Empresa</p>
+					<p class="usuario_cargo">Cargo</p>
+				</div>
+				<div class="cell small-12 large-10 large-offset-1 large-text-left">
+					<p class="usuario_bio">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+					</p>
+					<p class="usuario_datos text-center large-text-left"><span class="hide-for-small-only">E-mail: </span>contacto@email.com</p>
+					<p class="usuario_datos text-center large-text-left"><span class="hide-for-small-only">Celular: </span>987654321</p>
 				</div>
 			</div>
+		
 		</div>
+		<!-- EVENTO / CONTACTO / USUARIO -->
 		<footer>
 		  <div class="footer_connectperu grid-container">
 		    <div class="grid-x">

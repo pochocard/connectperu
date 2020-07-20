@@ -1,14 +1,1041 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+/* ELEGIR COLOR DE INTERFAZ */
+/* COLORES DEMO: MOVISTAR */
+/* COLORES DEMO: CLUB NAINTIS */
+body {
+  background: #eaeaea;
+  font-family: 'Nunito', sans-serif;
+}
+.off-canvas {
+  background-color: #52b100;
+}
+.off-canvas a {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+}
+.off-canvas a i {
+  padding-right: 0.4em;
+}
+.off-canvas a:hover {
+  color: #05a8e0;
+}
+.off-canvas .menu_responsive {
+  background-color: #52b100;
+  padding: 2em 0 0 1em;
+}
+.off-canvas .menu_responsive li a {
+  color: #fff;
+  font-size: 1em;
+}
+.off-canvas font-weight 700 i {
+  padding-right: 0.4em;
+}
+.off-canvas a:hover {
+  color: #05a8e0;
+}
+.off-canvas .menu_responsive_logo {
+  padding: 0 2.5em 1em 2.5em;
+}
+.link_temporal {
+  text-align: right;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding: 1em 0;
+}
+.link_temporal a {
+  color: #b7b9c7;
+}
+.link_temporal a:hover {
+  color: #606264;
+}
+/* EVENTO MENU PRINCIPAL */
+.top_home {
+  background-color: #080b0e;
+  padding: 0.4em 1.4em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.menu_home li a {
+  color: #fff;
+}
+.menu_home li a:hover {
+  color: #eaeaea;
+}
+.menu_home li i {
+  padding-right: 0.2em;
+}
+.top_evento {
+  background-color: rgba(5,168,224,0.8);
+  padding: 0.4em 1.4em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.logo_empresa {
+  padding: 0.5em 0;
+}
+.logo_empresa a img {
+  max-width: 140px;
+}
+.logo_empresa_login {
+  text-align: center;
+  padding: 0 0 2em 0;
+}
+.logo_empresa_login a img {
+  max-width: 220px;
+}
+.menu_evento button i {
+  color: #fff;
+  font-size: 1.7em;
+}
+.menu_evento button i:hover {
+  color: #b7b9c7;
+}
+.menu_link {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 1em;
+}
+.menu_link a {
+  background-color: #b7b9c7;
+  color: #fff;
+  padding-left: 0;
+  margin-right: 0.3em;
+}
+.menu_link a:hover {
+  background-color: #05a8e0;
+}
+.boton_default {
+  background-color: #b7b9c7;
+  border-radius: 14px;
+  font-weight: bold;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.boton_default:hover {
+  background-color: #606264;
+}
+.boton_evento {
+  background-color: #b7b9c7;
+  border-radius: 14px;
+  font-weight: bold;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.boton_evento:hover {
+  background-color: #05a8e0;
+}
+.paginacion_default {
+  padding-bottom: 4em;
+}
+.paginacion_default .current {
+  background-color: #05a8e0;
+}
+/* ACCESO */
+.accesos_plataforma {
+  background-color: #fff;
+  border-radius: 14px;
+  margin-top: 10em;
+  margin-bottom: 10em;
+  padding: 10em 0;
+}
+.acceso_plataforma_eventos {
+  padding: 2em;
+  margin-top: 3em;
+}
+.acceso_plataforma_eventos .acceso_form {
+  background-color: #fff;
+  border-radius: 14px;
+  margin-top: 3em;
+  margin-bottom: 5em;
+  padding: 3em;
+}
+.acceso_plataforma_eventos .acceso_form .boton_login {
+  background-color: #080b0e;
+  border-radius: 14px;
+  font-weight: bold;
+  padding: 1em 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.acceso_plataforma_eventos .acceso_form .boton_login:hover {
+  background-color: #606264;
+}
+.acceso_plataforma_eventos .acceso_form .link_olvide_password {
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding-top: 1em;
+}
+.acceso_plataforma_eventos .acceso_form .link_olvide_password a {
+  color: #b7b9c7;
+}
+.acceso_plataforma_eventos .acceso_form .link_olvide_password a:hover {
+  color: #606264;
+}
+.acceso_plataforma_eventos_cliente {
+  padding: 2em;
+  margin-top: 3em;
+}
+.acceso_plataforma_eventos_cliente .acceso_form {
+  background-color: #fff;
+  border-radius: 14px;
+  margin-top: 3em;
+  margin-bottom: 5em;
+  padding: 3em;
+}
+.acceso_plataforma_eventos_cliente .acceso_form .boton_login {
+  background-color: #05a8e0;
+  border-radius: 14px;
+  font-weight: bold;
+  padding: 1em 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.acceso_plataforma_eventos_cliente .acceso_form .boton_login:hover {
+  background-color: #52b100;
+}
+.acceso_plataforma_eventos_cliente .acceso_form .link_olvide_password {
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding-top: 1em;
+}
+.acceso_plataforma_eventos_cliente .acceso_form .link_olvide_password a {
+  color: #b7b9c7;
+}
+.acceso_plataforma_eventos_cliente .acceso_form .link_olvide_password a:hover {
+  color: #606264;
+}
+/* USUARIO PERFIL */
+.usuario_block {
+  padding-bottom: 5em;
+  padding-top: 3em;
+}
+.usuario_block .usuario_perfil {
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 2em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.usuario_block .usuario_perfil .usuario_foto {
+  padding: 1em 0;
+}
+.usuario_block .usuario_perfil .usuario_foto figure {
+  text-align: center;
+}
+.usuario_block .usuario_perfil .usuario_foto figure img {
+  background: #fff;
+  border-radius: 50%;
+  border: 8px solid #eaeaea;
+  border-image-slice: 0;
+  height: 180px;
+  width: 180px;
+}
+.usuario_block .usuario_perfil .usuario_foto_subir {
+  padding: 1em 0;
+}
+.usuario_block .usuario_perfil .usuario_foto_subir figure {
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+.usuario_block .usuario_perfil .usuario_foto_subir figure img {
+  background: #fff;
+  border-radius: 50%;
+  border: 8px solid #eaeaea;
+  border-image-slice: 0;
+  height: 140px;
+  width: 140px;
+}
+.usuario_block .usuario_perfil .usuario_info {
+  padding: 0;
+}
+.usuario_block .usuario_perfil .usuario_nombre {
+  font-size: 1.8em;
+  font-weight: 800;
+  margin-bottom: 0.1em;
+}
+.usuario_block .usuario_perfil .usuario_cargo {
+  font-size: 1em;
+  font-weight: 800;
+  margin-bottom: 0.5em;
+}
+.usuario_block .usuario_perfil .usuario_empresa {
+  color: #b7b9c7;
+  font-size: 0.9em;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+.usuario_block .usuario_perfil .usuario_bio {
+  padding: 0.5em 0;
+}
+.usuario_block .usuario_perfil .usuario_datos {
+  font-weight: 700;
+}
+.usuario_block .usuario_perfil .usuario_datos span {
+  color: #b7b9c7;
+  font-size: 0.8em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.usuario_block .usuario_perfil .form_perfil label {
+  color: #b7b9c7;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+.usuario_block .link_default a {
+  color: #b7b9c7;
+  font-size: 0.7em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.usuario_block .link_default a:hover {
+  color: #606264;
+}
+.usuario_block h2 {
+  color: #b7b9c7;
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.usuario_block .grilla_mis_eventos {
+  padding: 2em 0 0 0;
+  margin-bottom: 2em;
+}
+.usuario_block .eventos_grilla {
+  background-color: #fff;
+  border-radius: 0 0 14px 14px;
+}
+.usuario_block .eventos_grilla .mi_evento {
+  padding: 1.5em 2em;
+}
+.usuario_block .eventos_grilla .mi_evento h3 {
+  font-size: 1.4em;
+  font-weight: 800;
+}
+.usuario_block .eventos_grilla .mi_evento .dato_info_evento p {
+  color: #b7b9c7;
+  font-size: 0.85em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.usuario_block .eventos_grilla .mi_evento .dato_info_evento p i {
+  font-size: 1.4em;
+  padding-right: 0.5em;
+}
+.usuario_block .eventos_grilla .mi_evento .dato_info_evento p a {
+  color: #b7b9c7;
+}
+.usuario_block .eventos_grilla .mi_evento .dato_info_evento p a:hover {
+  color: #05a8e0;
+}
+.usuario_block .eventos_grilla .mi_evento .texto_evento_info {
+  font-size: 1em;
+  padding: 1em 0;
+}
+/* EXPOSITOR */
+.expositor_block .usuario_perfil {
+  background-color: #fff;
+  padding: 2em;
+}
+.expositor_block .usuario_perfil .usuario_foto {
+  padding: 1em 0;
+}
+.expositor_block .usuario_perfil .usuario_foto figure {
+  text-align: center;
+}
+.expositor_block .usuario_perfil .usuario_foto figure img {
+  background: #fff;
+  border-radius: 50%;
+  border: 8px solid #eaeaea;
+  border-image-slice: 0;
+  height: 180px;
+  width: 180px;
+}
+.expositor_block .usuario_perfil .usuario_info {
+  padding: 0;
+}
+.expositor_block .usuario_perfil .usuario_nombre {
+  font-size: 1.8em;
+  font-weight: 800;
+  margin-bottom: 0.1em;
+}
+.expositor_block .usuario_perfil .usuario_cargo {
+  font-size: 1em;
+  font-weight: 800;
+  margin-bottom: 0.5em;
+}
+.expositor_block .usuario_perfil .usuario_empresa {
+  color: #b7b9c7;
+  font-size: 0.9em;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+.expositor_block .usuario_perfil .usuario_bio {
+  padding: 0.5em 0;
+}
+.expositor_block .usuario_perfil .usuario_datos {
+  font-weight: 700;
+}
+.expositor_block .usuario_perfil .usuario_datos span {
+  color: #b7b9c7;
+  font-size: 0.8em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.expositor_block .link_default a {
+  color: #b7b9c7;
+  font-size: 0.7em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.expositor_block .link_default a:hover {
+  color: #606264;
+}
+.expositor_block h2 {
+  color: #b7b9c7;
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.expositor_block .grilla_mis_eventos {
+  padding: 2em 0 0 0;
+  margin-bottom: 2em;
+}
+.expositor_block .eventos_grilla {
+  background-color: #fff;
+  border-radius: 0 0 14px 14px;
+}
+.expositor_block .eventos_grilla .mi_evento {
+  padding: 1.5em 2em;
+}
+.expositor_block .eventos_grilla .mi_evento h3 {
+  font-size: 1.4em;
+  font-weight: 800;
+}
+.expositor_block .eventos_grilla .mi_evento .dato_info_evento p {
+  color: #b7b9c7;
+  font-size: 0.85em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.expositor_block .eventos_grilla .mi_evento .dato_info_evento p i {
+  font-size: 1.4em;
+  padding-right: 0.5em;
+}
+.expositor_block .eventos_grilla .mi_evento .dato_info_evento p a {
+  color: #b7b9c7;
+}
+.expositor_block .eventos_grilla .mi_evento .dato_info_evento p a:hover {
+  color: #05a8e0;
+}
+.expositor_block .eventos_grilla .mi_evento .texto_evento_info {
+  font-size: 1em;
+  padding: 1em 0;
+}
+/* EVENTO BANNER PRINCIPAL */
+.portada_evento {
+  background-color: #52b100;
+  background-image: url("/assets/img/pic_004.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 555px;
+/* BANNER SMALL */
+/* BANNER LARGE */
+}
+@media screen and (max-width: 39.9375em) {
+  .portada_evento {
+    background-color: #52b100;
+    background-image: url("/assets/img/pic_004.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 555px;
+  }
+}
+@media screen and (min-width: 40em) {
+  .portada_evento {
+    background-color: #52b100;
+    background-image: url("/assets/img/pic_004.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 555px;
+  }
+}
+.logo_evento_banner {
+  position: absolute;
+  top: 390px;
+  left: 40px;
+  width: 400px;
+}
+.logo_evento_banner img {
+  max-width: 300px;
+}
+.logo_evento_banner h1 {
+  color: #fff;
+}
+/* EVENTO BANNER INTERNO */
+.portada_evento_interno {
+  background-color: #52b100;
+  background-image: url("/assets/img/pic_004.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+/* BANNER SMALL */
+/* BANNER LARGE */
+}
+@media screen and (max-width: 39.9375em) {
+  .portada_evento_interno {
+    background-color: #52b100;
+    background-image: url("/assets/img/pic_004.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 40em) {
+  .portada_evento_interno {
+    background-color: #52b100;
+    background-image: url("/assets/img/pic_004.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 250px;
+  }
+}
+.logo_evento_banner_interno {
+  position: absolute;
+  top: 95px;
+  left: 40px;
+  width: 400px;
+}
+.logo_evento_banner_interno img {
+  max-width: 230px;
+}
+.logo_evento_banner_interno h1 {
+  color: #fff;
+}
+.icono_interno {
+  background-color: #52b100;
+  border-radius: 14px;
+  color: #fff;
+  padding: 0.7em 0.8em 1.4em 0.8em;
+  position: absolute;
+  top: 170px;
+  right: 50px;
+  width: 130px;
+}
+.icono_interno i {
+  font-size: 3em;
+  padding: 0;
+}
+.icono_interno p {
+  font-size: 0.95em;
+  font-weight: 700;
+  margin: 0;
+}
+.texto_info_evento p {
+  color: #b7b9c7;
+  font-size: 0.9em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.texto_info_evento p i {
+  font-size: 1.4em;
+  padding-right: 0.5em;
+}
+.texto_info_evento p a {
+  color: #b7b9c7;
+}
+.texto_info_evento p a:hover {
+  color: #05a8e0;
+}
+.evento_fila_info_icon {
+  padding: 1em 0.2em 1em 0.2em;
+  vertical-align: middle;
+}
+.evento_fila_info_icon .fi_big_icon {
+  font-size: 2em;
+}
+.evento_fila_info_icon a {
+  color: #05a8e0;
+  font-size: 2em;
+}
+.evento_fila_info_icon a:hover {
+  color: #52b100;
+}
+/* EVENTO - CONTENEDOR */
+.contenedor_evento {
+  background: none;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding: 1em;
+/* DASHBOARD */
+}
+.contenedor_evento h3 {
+  color: #05a8e0;
+  font-size: 1.8em;
+  font-weight: 800;
+}
+.contenedor_evento .texto_descripcion {
+  padding: 2em 0 0.5em 0;
+}
+.contenedor_evento .texto_descripcion p {
+  font-size: 0.95em;
+}
+.contenedor_evento .evento_auspiciadores {
+  text-align: center;
+}
+.contenedor_evento .evento_auspiciadores h4 {
+  font-size: 0.9em;
+  font-weight: 700;
+}
+.contenedor_evento .evento_auspiciadores .logo_auspiciador_dash {
+  padding: 1em;
+}
+.contenedor_evento .evento_auspiciadores .logo_auspiciador_dash img {
+  max-width: 150px;
+}
+.contenedor_evento .evento_redes {
+  text-align: center;
+  padding: 1em 0;
+}
+.contenedor_evento .evento_redes a {
+  color: #b7b9c7;
+  font-size: 2em;
+  font-weight: 200;
+  padding: 0 0.3em;
+}
+.contenedor_evento .evento_redes a:hover {
+  color: #606264;
+}
+.contenedor_evento .evento_info {
+  background-color: #fff;
+  border-left: 25px solid #52b100;
+  padding: 2em 2.5em;
+}
+.contenedor_evento .evento_dashboard {
+  background-color: #05a8e0;
+  padding: 3em 1em;
+  text-align: center;
+}
+.contenedor_evento .evento_dashboard h4 {
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+.contenedor_evento .evento_dashboard .botones_start {
+  padding: 2em;
+}
+.contenedor_evento .evento_dashboard .botones_start .boton_start {
+  background-color: none;
+  border-radius: 14px;
+  color: #fff;
+  text-align: center;
+  height: 138px;
+  padding: 0.9em 0;
+}
+.contenedor_evento .evento_dashboard .botones_start .boton_start i {
+  font-size: 3em;
+}
+.contenedor_evento .evento_dashboard .botones_start .boton_start p {
+  font-size: 0.95em;
+  font-weight: 700;
+  margin: 0;
+}
+.contenedor_evento .evento_dashboard .botones_start .boton_start:hover {
+  background-color: #fff;
+  color: #05a8e0;
+}
+/* EVENTO - FILAS */
+.contenedor_filas {
+  background: none;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 4em;
+  margin-bottom: 3em;
+  padding: 1em;
+/* EXPOSITOR */
+/* ENCUESTAS */
+}
+.contenedor_filas .filas_search_date {
+  font-size: 0.8em;
+}
+.contenedor_filas .filas_search_date .input-group-field {
+  margin-bottom: 0;
+}
+.contenedor_filas .boton_search {
+  background-color: #05a8e0;
+}
+.contenedor_filas h2 {
+  color: #b7b9c7;
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  text-transform: uppercase;
+}
+.contenedor_filas .evento_fila_cards_expositor .evento_fila_card_expositor {
+  background-color: #fff;
+  margin-bottom: 0.9em;
+  padding: 1em;
+  position: relative;
+}
+.contenedor_filas .evento_fila_cards_expositor .evento_fila_card_expositor figure {
+  text-align: center;
+  padding: 1em 0;
+}
+.contenedor_filas .evento_fila_cards_expositor .evento_fila_card_expositor figure img {
+  background: #fff;
+  border-radius: 50%;
+  border: 6px solid #eaeaea;
+  border-image-slice: 0;
+  height: 140px;
+  width: 140px;
+}
+.contenedor_filas .evento_fila_cards_expositor .evento_fila_card_expositor h3 {
+  color: #000;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+.contenedor_filas .evento_fila_cards_expositor .evento_fila_card_expositor .p_sub_info {
+  color: #05a8e0;
+  font-size: 1em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.contenedor_filas .evento_fila_cards_expositor .evento_fila_card_expositor .p_mini_text {
+  padding: 0.5em 0;
+}
+.contenedor_filas .evento_fila_cards_expositor .evento_fila_card_expositor a {
+  margin-bottom: 0;
+}
+.contenedor_filas .evento_fila_block {
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 1em;
+/* EVENTO INFO - DESCRIPCIÓN */
+/* ASISTENTES */
+/* INFO BLOCK */
+}
+.contenedor_filas .evento_fila_block .evento_fila_info img {
+  padding: 1em;
+}
+.contenedor_filas .evento_fila_block .evento_fila_info .evento_fila_info_texto {
+  padding: 1em;
+}
+.contenedor_filas .evento_fila_block .evento_fila_info .evento_fila_info_texto h3 {
+  color: #000;
+  font-size: 1.3em;
+  font-weight: 700;
+  padding-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+.contenedor_filas .evento_fila_block .evento_fila_info .evento_fila_info_texto .texto_descripcion_resumen {
+  margin-bottom: 0;
+  padding: 1em 0;
+}
+.contenedor_filas .evento_fila_block .evento_fila_info .evento_ubicacion_texto {
+  padding: 1.5em 2em;
+}
+.contenedor_filas .evento_fila_block .evento_fila_info .evento_ubicacion_texto h3 {
+  color: #000;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding-top: 0.5em;
+}
+.contenedor_filas .evento_fila_block .evento_fila_info .evento_ubicacion_texto h4 {
+  color: #05a8e0;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+.contenedor_filas .evento_fila_block .evento_fila_info .evento_ubicacion_texto .texto_descripcion_resumen {
+  margin-bottom: 0;
+  padding: 1em 0;
+}
+.contenedor_filas .evento_fila_block .evento_programa_info_detalle_pic {
+  padding: 0;
+}
+.contenedor_filas .evento_fila_block .evento_programa_info_detalle_pic figure {
+  text-align: center;
+}
+.contenedor_filas .evento_fila_block .evento_programa_info_detalle_pic figure img {
+  background: #fff;
+  border-radius: 50%;
+  border: 6px solid #eaeaea;
+  border-image-slice: 0;
+  height: 140px;
+  width: 140px;
+}
+.contenedor_filas .evento_fila_block .evento_programa_info_detalle_text {
+  padding: 2em;
+}
+.contenedor_filas .evento_fila_block .evento_programa_info_detalle_text h3 {
+  color: #000;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+.contenedor_filas .evento_fila_block .evento_programa_info_detalle_text .p_info {
+  color: #05a8e0;
+  font-size: 1em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.contenedor_filas .evento_fila_block .evento_programa_info_detalle_text .evento_programa_info_detalle_text_detalle {
+  padding: 1.5em 0 0 0;
+}
+.contenedor_filas .evento_fila_block .evento_fila_asistente {
+  padding: 1em;
+}
+.contenedor_filas .evento_fila_block .evento_fila_asistente figure {
+  text-align: center;
+}
+.contenedor_filas .evento_fila_block .evento_fila_asistente figure img {
+  background: #fff;
+  border-radius: 50%;
+  border: 6px solid #eaeaea;
+  border-image-slice: 0;
+  height: 75px;
+  width: 75px;
+}
+.contenedor_filas .evento_fila_block .evento_fila_asistente .evento_fila_info_texto {
+  padding: 1em;
+}
+.contenedor_filas .evento_fila_block .evento_fila_asistente .evento_fila_info_texto h3 {
+  color: #000;
+  font-size: 1em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+.contenedor_filas .evento_fila_block .evento_fila_asistente .evento_fila_info_texto p {
+  color: #05a8e0;
+  font-size: 0.9em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.contenedor_filas .evento_fila_block .evento_fila_asistente .evento_fila_info_texto .p_texto_notificacion {
+  color: #606264;
+  font-weight: 400;
+}
+.contenedor_filas .evento_fila_block .evento_fila_hora p {
+  color: #05a8e0;
+  font-size: 0.9em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.contenedor_filas .evento_fila_block .evento_fila_hora p i {
+  font-size: 1.4em;
+  padding-right: 0.2em;
+}
+.contenedor_filas .evento_fila_block .info_block {
+  padding: 1em 2em;
+}
+.contenedor_filas .evento_fila_block .info_block img {
+  max-width: 400px;
+  padding: 1.5em 0;
+}
+.contenedor_filas .evento_fila_block .info_block h3 {
+  color: #000;
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+.contenedor_filas .evento_fila_block .info_block .link_web {
+  color: #05a8e0;
+  font-weight: 700;
+}
+.contenedor_filas .evento_fila_block .info_block .link_web:hover {
+  color: #52b100;
+}
+.contenedor_filas .evento_fila_block .info_block .p_info_block {
+  font-size: 1em;
+  margin-bottom: 0;
+  padding: 1.5em 0;
+}
+.contenedor_filas .evento_fila_block .info_block .evento_programa_info_detalle_text_detalle {
+  padding: 1.5em 0 0 0;
+}
+.contenedor_filas .evento_sponsors_stands {
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 1em;
+  padding: 1em 2em 3em 2em;
+}
+.contenedor_filas .evento_sponsors_stands .sponsor_type h2 {
+  color: #b7b9c7;
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.contenedor_filas .evento_sponsors_stands .logo_partner {
+  padding: 1em;
+}
+.contenedor_filas .evento_sponsors_stands .logo_partner:hover {
+  background-color: #eaeaea;
+}
+.contenedor_filas .evento_encuestas .evento_encuestas_formatos {
+  background-color: #fff;
+  padding: 2.5em;
+}
+.contenedor_filas .evento_encuestas .evento_encuestas_formatos h3 {
+  color: #000;
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+.contenedor_filas .evento_encuestas .evento_encuestas_formatos .encuesta_formato {
+  padding: 1em 0;
+}
+.contenedor_filas .evento_encuestas .evento_encuestas_formatos .encuesta_formato .p_pregunta {
+  color: #05a8e0;
+  font-weight: 700;
+}
 .eventos_grilla {
   position: relative;
 }
 .estado_on {
+  background-color: #94d948;
+  font-weight: 700;
   position: absolute;
+  padding: 1em;
   top: 0;
-  left: 0;
+  right: 0;
+}
+.estado_on i {
+  font-style: bold;
+}
+.estado_evento_on {
+  background-color: #94d948;
+  font-weight: 700;
+  position: absolute;
+  padding: 1em;
+  top: 0;
+  right: 0;
+}
+.estado_evento_on i {
+  font-style: bold;
 }
 .estado_fecha {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
+}
+.tipo_formato {
+  color: #b7b9c7;
+  font-size: 1em;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+footer {
+  background: #161415;
+}
+footer .footer_connectperu {
+  padding: 5em 0;
+}
+footer .footer_connectperu .logo_empresa_footer a img {
+  max-width: 200px;
+}
+footer .footer_connectperu .footer_menu a {
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+footer .footer_connectperu .footer_menu a:hover {
+  color: #b7b9c7;
+}
+footer .info_footer {
+  background-color: #000;
+  padding: 1.8em 0;
+}
+footer .info_footer p {
+  color: #606264;
+  text-align: center;
+  font-size: 0.85em;
+  font-weight: 400;
+  padding: 0;
+  margin-bottom: 0;
+}
+.dialogo_box {
+  font-family: 'Nunito', sans-serif;
+  position: fixed;
+  top: 56px;
+  right: 0;
+}
+.dialogo_box .callout {
+  background-color: rgba(148,217,72,0.8);
+}
+.dialogo_box .callout h5 {
+  font-weight: 500;
+}
+.dialogo_box .callout .close-button {
+  color: #000;
+}
+.dialogo_box .callout .close-button:hover {
+  color: #fff;
+}
+/* ENCUESTA - RATING */
+.rating-block {
+  padding: 2px 5px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.rating-block .ratings-type {
+  margin-right: 1rem;
+  margin-bottom: 0;
+}
+.rating-block .rating-block {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.rating-block .rating-block-rating {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.rating-block .star {
+  cursor: pointer;
+  stroke: #05a8e0;
+}
+.rating-block .rating-block-rating .star.selected polygon {
+  fill: #05a8e0;
+}
+.rating-block .rating-block-rating.is-voted .star polygon {
+  fill: #05a8e0;
+}
+.rating-block .rating-block-rating.is-voted .star.selected ~ .star polygon {
+  fill: transparent;
 }

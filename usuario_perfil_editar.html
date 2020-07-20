@@ -33,35 +33,55 @@
 				</div>
 			</div>
 		</header>
-		<div class="acceso_plataforma_eventos grid-container">
-			<div class="grid-x grid-y">
-				<div class="acceso_form cell small-12 medium-6 medium-offset-3 large-6 large-offset-3">
-					<div class="logo_empresa_login">
-						<a href="#">
-							<img src="/assets/img/logo_connectperu_black.png">
-						</a>
-					</div>
-					<form>
-					    <div>
-					      <label>
-					        <input type="text" placeholder="Correo electrónico">
-					      </label>
-					    </div>
-					    <div>
-					      <label>
-					        <input type="password" placeholder="Contraseña">
-					      </label>
-					      <fieldset>
-					        <input id="checkbox1" type="checkbox"><label for="checkbox1">Recordar contraseña</label>
-					      </fieldset>
-					      <input type="submit" onclick="location.href='usuario_perfil.html';" class="boton_login button expanded" value="Iniciar sesión">
-					    </div>
-					    <div class="link_olvide_password">
-						    <a href="#">Olvidé mi contraseña</a>
-					    </div>
-					</form>
-				</div>
-			</div>
+		<div class="usuario_block grid-container grid-x grid-y">
+		
+			<div class="usuario_perfil cell small-12 medium-6 medium-offset-3">
+		
+				<div class="cell">
+					<h2>Editar perfil</h2>
+			        <hr>
+		        </div>
+		
+		        <form class="form_perfil grid-x">
+		
+			        <div class="cell small-12 medium-10 medium-offset-1">
+			        	<div class="usuario_foto_subir">
+		                    <figure>
+		                        <img src="assets/img/profile_picture.png">
+		                    </figure>
+		                    <label for="exampleFileUpload" class="link_default text-center">CAMBIAR FOTO</label>
+		                    <input type="file" id="exampleFileUpload" class="show-for-sr">
+		                </div>
+			        	<label>NOMBRES
+		                	<input type="text" value="Ramona">
+		                </label>
+		                <label>APELLIDOS
+		                	<input type="text" value="Flowers">
+		                </label>
+		                <label>EMPRESA
+		                	<input type="text" value="Amazon.com">
+		                </label>
+		                <label>CARGO
+		                	<input type="text" value="Repartidora ninja">
+		                </label>
+		                <label>E-MAIL
+		                  <input type="email" value="ramona.flowers@email.com">
+		                </label>
+		                <label>CELULAR
+		                  <input type="TEXT" value="987654321">
+		                </label>
+		                <label>ACERCA DE MI
+							<textarea rows="4" cols="1"></textarea>
+						</label>
+		                <div>
+							<a href="usuario_perfil.html" class="boton_default button expanded">Guardar</a>
+						</div>
+			        </div>
+		
+		        </form>
+		
+		    </div>
+			
 		</div>
 		<footer>
 		  <div class="footer_connectperu grid-container">

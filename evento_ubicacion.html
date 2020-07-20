@@ -15,53 +15,59 @@
 	<div class="off-canvas-content" data-off-canvas-content>
 		
 		<header id="header">
-			<div class="top_home">
+			<div class="top_evento">
 				<div class="grid-x">
 		
-					<div class="logo_empresa cell small-4 medium-4 small-order-1">
-						<a href="index.html">
-							<img src="/assets/img/logo_connectperu.png">
+					<div class="logo_empresa cell small-11 medium-11 small-order-1">
+						<a href="#">
+							<img src="/assets/img/logo_empresa_demo_movistar.png">
 						</a>
 					</div>
 		
-					<div class="cell small-8 medium-8 small-order-2">
-						<ul class="menu_home menu" style="display: flex; justify-content: flex-end; align-items: center;">
-							<li><a class="padding-bottom-0" href="usuario_perfil.html"><i class="fi-torso"></i> Mi perfil</a></li>
-							<li><a class="padding-bottom-0" href="acceso_form_connectperu.html"><i class="fi-arrow-right"></i> Salir</a></li>
-						</ul>			</div>
+					<div class="menu_evento cell small-1 medium-1 small-order-2" style="display: flex; justify-content: flex-end; align-items: center;">
+						<button type="button" data-toggle="offCanvas"><i class="fi-list"></i></button>
+					</div>
 		
 				</div>
 			</div>
 		</header>
-		<div class="acceso_plataforma_eventos grid-container">
-			<div class="grid-x grid-y">
-				<div class="acceso_form cell small-12 medium-6 medium-offset-3 large-6 large-offset-3">
-					<div class="logo_empresa_login">
-						<a href="#">
-							<img src="/assets/img/logo_connectperu_black.png">
-						</a>
-					</div>
-					<form>
-					    <div>
-					      <label>
-					        <input type="text" placeholder="Correo electrónico">
-					      </label>
-					    </div>
-					    <div>
-					      <label>
-					        <input type="password" placeholder="Contraseña">
-					      </label>
-					      <fieldset>
-					        <input id="checkbox1" type="checkbox"><label for="checkbox1">Recordar contraseña</label>
-					      </fieldset>
-					      <input type="submit" onclick="location.href='usuario_perfil.html';" class="boton_login button expanded" value="Iniciar sesión">
-					    </div>
-					    <div class="link_olvide_password">
-						    <a href="#">Olvidé mi contraseña</a>
-					    </div>
-					</form>
-				</div>
+		<!-- EVENTO BANNER INTERNO -->
+		<div class="portada_evento_interno grid-x">
+		
+			<div class="logo_evento_banner_interno">
+				<img src="/assets/img/logo_evento.png">
 			</div>
+		
+			<div class="icono_interno text-center">
+				<i class="fi-marker"></i>
+				<p>Ubicación</p>
+			</div>
+		
+		</div>
+		<!-- /EVENTO BANNER INTERNO -->
+		
+		<div class="contenedor_filas grid-container">
+		
+			<!-- EVENTO UBICACIÓN -->
+			<div class="evento_fila_block grid-x">
+		
+				<div class="evento_fila_info cell small-12">
+					<div class="evento_ubicacion_texto">
+						<h3>Centro de Convenciones Barranco</h3>
+						<h4>Av. República de Panamá 220</h4>
+						<h4>Barranco - Lima</h4>
+						<p class="texto_descripcion_resumen">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam orci, elementum a sem at, imperdiet nisl.
+						</p>
+					</div>
+					<div class="responsive-embed widescreen">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.589224401147!2d-77.01978808489712!3d-12.140233591405112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b7fa7233c8b9%3A0xe8dd0f78f6f377b1!2sCentro%20de%20Convenciones%20Barranco%20-%20CCB!5e0!3m2!1ses!2spe!4v1594880465475!5m2!1ses!2spe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</div>
+				</div>
+		
+			</div>
+			<!-- /EVENTO UBICACIÓN -->
+		
 		</div>
 		<footer>
 		  <div class="footer_connectperu grid-container">

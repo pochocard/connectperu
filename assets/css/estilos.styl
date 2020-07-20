@@ -1,13 +1,1107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+/* ELEGIR COLOR DE INTERFAZ */
+color_interface_default = #080B0E
+color_interface_one = #05A8E0
+color_interface_two = #52B100
+
+black_light = #161415
+black_strong = #080B0E
+gris_lite = #EAEAEA
+gris_light = #B7B9C7
+gris_dark = #606264
+green_live = #94D948
+
+/* COLORES DEMO: MOVISTAR */
+celeste_movistar = #05A8E0
+verde_movistar = #52B100
+
+/* COLORES DEMO: CLUB NAINTIS */
+rosado_naintis = #9d73ce
+verde_naintis = #61dddd
+
+body
+	background gris_lite
+	font-family 'Nunito', sans-serif
+	
+.off-canvas
+	background-color color_interface_two
+			
+	a
+		color white
+		font-size 1em
+		font-weight 700
+		
+		i
+			padding-right 0.4em
+			
+	a:hover
+		color color_interface_one
+	
+	.menu_responsive
+		background-color color_interface_two
+		padding 2em 0 0 1em
+		
+		li
+			
+			a
+				color white
+				font-size 1em
+	    		font-weight 700
+				
+				i
+					padding-right 0.4em
+					
+			a:hover
+				color color_interface_one
+				
+			.menu_responsive_logo
+				padding 0 2.5em 1em 2.5em
+	
+.link_temporal
+	text-align right
+	font-size 0.7em
+	font-weight bold
+	padding 1em 0
+	
+	a
+		color gris_light
+		
+	a:hover
+		color gris_dark
+
+/* EVENTO MENU PRINCIPAL */	
+.top_home
+	background-color rgba(color_interface_default 1.0)
+	padding 0.4em 1.4em
+	position fixed
+	top 0
+	left 0
+	right 0
+	z-index 1
+	
+.menu_home
+	
+	li
+		a
+			color white
+			
+		a:hover
+			color gris_lite
+			
+		i
+			padding-right 0.2em
+	
+.top_evento
+	background-color rgba(color_interface_one 0.8)
+	padding 0.4em 1.4em
+	position fixed
+	top 0
+	left 0
+	right 0
+	z-index 1
+	
+.logo_empresa
+	padding 0.5em 0
+		
+	a
+		img
+			max-width 140px
+			
+.logo_empresa_login
+	text-align center
+	padding 0 0 2em 0
+		
+	a
+		img
+			max-width 220px
+
+.menu_evento
+	
+	button	
+		i
+			color white
+			font-size 1.7em
+			
+		i:hover
+			color gris_light
+			
+.menu_link
+	font-weight 700
+	text-transform uppercase
+	padding-bottom 1em
+	
+	a
+		background-color gris_light
+		color white
+		padding-left 0
+		margin-right 0.3em
+		
+	a:hover
+		background-color color_interface_one
+			
+.boton_default
+	background-color gris_light
+	border-radius 14px
+	font-weight bold
+	padding 1em
+	margin-top 1em
+	margin-bottom 1em
+	
+.boton_default:hover
+	background-color gris_dark
+	
+.boton_evento
+	background-color gris_light
+	border-radius 14px
+	font-weight bold
+	padding 1em
+	margin-top 1em
+	margin-bottom 1em
+	
+.boton_evento:hover
+	background-color color_interface_one
+	
+.paginacion_default
+	padding-bottom 4em
+	
+	.current
+		background-color color_interface_one
+
+/* ACCESO */
+.accesos_plataforma
+	background-color white
+	border-radius 14px
+	margin-top 10em
+	margin-bottom 10em
+	padding 10em 0
+
+.acceso_plataforma_eventos
+	padding 2em
+	margin-top 3em
+			
+	.acceso_form
+		background-color white
+		border-radius 14px
+		margin-top 3em
+		margin-bottom 5em
+		padding 3em
+		
+		.boton_login
+			background-color color_interface_default
+			border-radius 14px
+			font-weight bold
+			padding 1em 0
+			margin-top 1em
+			margin-bottom 1em
+			
+		.boton_login:hover
+			background-color gris_dark
+			
+		.link_olvide_password
+			text-align center
+			font-size 0.8em
+			font-weight bold
+			padding-top 1em
+			
+			a
+				color gris_light
+				
+			a:hover
+				color gris_dark
+				
+.acceso_plataforma_eventos_cliente
+	padding 2em
+	margin-top 3em
+			
+	.acceso_form
+		background-color white
+		border-radius 14px
+		margin-top 3em
+		margin-bottom 5em
+		padding 3em
+		
+		.boton_login
+			background-color color_interface_one
+			border-radius 14px
+			font-weight bold
+			padding 1em 0
+			margin-top 1em
+			margin-bottom 1em
+			
+		.boton_login:hover
+			background-color color_interface_two
+			
+		.link_olvide_password
+			text-align center
+			font-size 0.8em
+			font-weight bold
+			padding-top 1em
+			
+			a
+				color gris_light
+				
+			a:hover
+				color gris_dark
+
+/* USUARIO PERFIL */
+.usuario_block
+	padding-bottom 5em
+	padding-top 3em
+	
+	.usuario_perfil
+		background-color white
+		border-radius 14px
+		padding 2em
+		margin-top 3em
+		margin-bottom 3em
+		
+		.usuario_foto
+			padding 1em 0
+			
+			figure
+				text-align center
+							
+				img
+					background white
+					border-radius 50%
+					border 8px solid gris_lite
+					border-image-slice 0
+					height 180px
+					width 180px
+					
+		.usuario_foto_subir
+			padding 1em 0
+			
+			figure
+				text-align center
+				padding-bottom 0.5em
+							
+				img
+					background white
+					border-radius 50%
+					border 8px solid gris_lite
+					border-image-slice 0
+					height 140px
+					width 140px
+					
+		.usuario_info
+			padding 0
+				
+		.usuario_nombre
+			font-size 1.8em
+			font-weight 800
+			margin-bottom 0.1em
+			
+		.usuario_cargo
+			font-size 1em
+			font-weight 800
+			margin-bottom 0.5em
+			
+		.usuario_empresa
+			color gris_light
+			font-size 0.9em
+			font-weight 800
+			text-transform uppercase
+			margin-bottom 0.5em
+			
+		.usuario_bio
+			padding 0.5em 0
+			
+		.usuario_datos
+			font-weight 700
+			
+			span
+				color gris_light
+				font-size 0.8em
+				font-weight 800
+				text-transform uppercase
+				
+		.form_perfil
+			
+			label
+				color gris_light
+				font-size 0.8em
+				font-weight 700
+			
+				
+	.link_default
+		
+		a
+			color gris_light
+			font-size 0.7em
+			font-weight 800
+			text-transform uppercase
+			
+		a:hover
+			color gris_dark
+			
+	h2
+		color gris_light
+		font-size 1.2em
+		font-weight 800
+		margin-bottom 0
+		text-transform uppercase
+			
+	.grilla_mis_eventos
+		padding 2em 0 0 0
+		margin-bottom 2em
+		
+	.eventos_grilla
+		background-color white
+		border-radius 0 0 14px 14px
+		
+		.mi_evento
+			padding 1.5em 2em
+			
+			h3
+				font-size 1.4em
+				font-weight 800
+				
+			.dato_info_evento
+
+				p
+					color gris_light
+					font-size 0.85em
+					font-weight 700
+					margin-bottom 0
+					
+					i
+						font-size 1.4em
+						padding-right 0.5em
+					
+					a
+						color gris_light
+						
+					a:hover
+						color color_interface_one
+						
+			.texto_evento_info
+				font-size 1em
+				padding 1em 0
+				
+/* EXPOSITOR */
+.expositor_block
+	
+	.usuario_perfil
+		background-color white
+		padding 2em
+		
+		.usuario_foto
+			padding 1em 0
+			
+			figure
+				text-align center
+							
+				img
+					background white
+					border-radius 50%
+					border 8px solid gris_lite
+					border-image-slice 0
+					height 180px
+					width 180px
+					
+		.usuario_info
+			padding 0
+				
+		.usuario_nombre
+			font-size 1.8em
+			font-weight 800
+			margin-bottom 0.1em
+			
+		.usuario_cargo
+			font-size 1em
+			font-weight 800
+			margin-bottom 0.5em
+			
+		.usuario_empresa
+			color gris_light
+			font-size 0.9em
+			font-weight 800
+			text-transform uppercase
+			margin-bottom 0.5em
+			
+		.usuario_bio
+			padding 0.5em 0
+			
+		.usuario_datos
+			font-weight 700
+			
+			span
+				color gris_light
+				font-size 0.8em
+				font-weight 800
+				text-transform uppercase
+				
+	.link_default
+		
+		a
+			color gris_light
+			font-size 0.7em
+			font-weight 800
+			text-transform uppercase
+			
+		a:hover
+			color gris_dark
+			
+	h2
+		color gris_light
+		font-size 1.2em
+		font-weight 800
+		margin-bottom 0
+		text-transform uppercase
+			
+	.grilla_mis_eventos
+		padding 2em 0 0 0
+		margin-bottom 2em
+		
+	.eventos_grilla
+		background-color white
+		border-radius 0 0 14px 14px
+		
+		.mi_evento
+			padding 1.5em 2em
+			
+			h3
+				font-size 1.4em
+				font-weight 800
+				
+			.dato_info_evento
+
+				p
+					color gris_light
+					font-size 0.85em
+					font-weight 700
+					margin-bottom 0
+					
+					i
+						font-size 1.4em
+						padding-right 0.5em
+					
+					a
+						color gris_light
+						
+					a:hover
+						color color_interface_one
+						
+			.texto_evento_info
+				font-size 1em
+				padding 1em 0
+	
+/* EVENTO BANNER PRINCIPAL */	
+.portada_evento
+	background-color color_interface_two
+	background-image url('/assets/img/pic_004.jpg')
+	background-size cover
+	background-repeat no-repeat
+	background-position center center
+	height 555px
+	
+	/* BANNER SMALL */	
+	@media screen and (max-width: 39.9375em) {
+		background-color color_interface_two
+		background-image url('/assets/img/pic_004.jpg')
+		background-size cover
+		background-repeat no-repeat
+		background-position center center
+		height 555px
+	}
+	/* BANNER LARGE */	
+	@media screen and (min-width: 40em) {
+		background-color color_interface_two
+		background-image url('/assets/img/pic_004.jpg')
+		background-size cover
+		background-position center center
+		background-repeat no-repeat
+		height 555px
+	}
+	
+.logo_evento_banner
+	position absolute
+	top 390px
+	left 40px
+	width 400px
+	
+	img
+		max-width 300px
+
+	h1
+		color white
+		
+/* EVENTO BANNER INTERNO */	
+.portada_evento_interno
+	background-color color_interface_two
+	background-image url('/assets/img/pic_004.jpg')
+	background-size cover
+	background-repeat no-repeat
+	background-position center
+	height 250px
+	
+	/* BANNER SMALL */	
+	@media screen and (max-width: 39.9375em) {
+		background-color color_interface_two
+		background-image url('/assets/img/pic_004.jpg')
+		background-size cover
+		background-repeat no-repeat
+		background-position bottom center
+		height 250px
+	}
+	/* BANNER LARGE */	
+	@media screen and (min-width: 40em) {
+		background-color color_interface_two
+		background-image url('/assets/img/pic_004.jpg')
+		background-size cover
+		background-position center center
+		background-repeat no-repeat
+		height 250px
+	}
+	
+.logo_evento_banner_interno
+	position absolute
+	top 95px
+	left 40px
+	width 400px
+	
+	img
+		max-width 230px
+
+	h1
+		color white
+		
+.icono_interno
+	background-color color_interface_two
+	border-radius 14px
+	color white
+	padding 0.7em 0.8em 1.4em 0.8em
+	position absolute
+	top 170px
+	right 50px
+	width 130px
+	
+	i
+		font-size 3em
+		padding 0
+	
+	p
+		font-size 0.95em
+		font-weight 700
+		margin 0
+		
+.texto_info_evento
+
+	p
+		color gris_light
+		font-size 0.9em
+		font-weight 700
+		margin-bottom 0
+		
+		i
+			font-size 1.4em
+			padding-right 0.5em
+		
+		a
+			color gris_light
+			
+		a:hover
+			color color_interface_one
+			
+.evento_fila_info_icon
+	padding 1em 0.2em 1em 0.2em
+	vertical-align middle
+	
+	.fi_big_icon
+		font-size 2em
+		
+	
+	a
+		color color_interface_one
+		font-size 2em
+		
+	a:hover
+		color color_interface_two
+
+/* EVENTO - CONTENEDOR */
+.contenedor_evento
+	background none
+	font-family 'Nunito', sans-serif
+	margin-top 3em
+	margin-bottom 3em
+	padding 1em
+	
+	h3
+		color color_interface_one
+		font-size 1.8em
+		font-weight 800
+				
+	.texto_descripcion
+		padding 2em 0 0.5em 0
+		
+		p
+			font-size 0.95em
+			
+	.evento_auspiciadores
+		text-align center
+		
+		h4
+			font-size 0.9em
+			font-weight 700
+			
+		.logo_auspiciador_dash
+			padding 1em
+			
+			img
+				max-width 150px
+			
+	.evento_redes
+		text-align center
+		padding 1em 0
+		
+		a
+			color gris_light
+			font-size 2em
+			font-weight 200
+			padding 0 0.3em
+			
+		a:hover
+			color gris_dark
+			
+	.evento_info
+		background-color white
+		border-left 25px solid color_interface_two
+		padding 2em 2.5em
+	
+	/* DASHBOARD */
+	.evento_dashboard
+		background-color color_interface_one
+		padding 3em 1em
+		text-align center
+		
+		h4
+			color white
+			font-size 1.3em
+			font-weight 700
+		
+		.botones_start
+			padding 2em
+			
+			.boton_start
+				background-color none
+				border-radius 14px
+				color white
+				text-align center
+				height 138px
+				padding 0.9em 0
+				
+				i
+					font-size 3em
+					
+				p
+					font-size 0.95em
+					font-weight 700
+					margin 0
+					
+			.boton_start:hover
+				background-color white
+				color color_interface_one
+				
+/* EVENTO - FILAS */
+.contenedor_filas
+	background none
+	font-family 'Nunito', sans-serif
+	margin-top 4em
+	margin-bottom 3em
+	padding 1em
+	
+	.filas_search_date
+		font-size 0.8em
+		
+		.input-group-field
+			margin-bottom 0
+	
+	.boton_search
+		background-color color_interface_one
+		
+	
+	h2
+		color gris_light
+		font-size 1.2em
+		font-weight 800
+		margin-bottom 1em
+		margin-top 1em
+		text-transform uppercase
+		
+	/* EXPOSITOR */
+	.evento_fila_cards_expositor
+		
+		.evento_fila_card_expositor
+			background-color white
+			margin-bottom 0.9em
+			padding 1em
+			position relative
+			
+			figure
+				text-align center
+				padding 1em 0
+							
+				img
+					background white
+					border-radius 50%
+					border 6px solid gris_lite
+					border-image-slice 0
+					height 140px
+					width 140px
+					
+			h3
+				color black
+				font-size 1.2em
+				font-weight 700
+				margin-bottom 0.2em
+				
+			.p_sub_info
+				color color_interface_one
+				font-size 1em
+				font-weight 700
+				margin-bottom 0
+				
+			.p_mini_text
+				padding 0.5em 0
+				
+			a
+				
+				margin-bottom 0
+		
+	.evento_fila_block
+		background-color white
+		position relative
+		margin-bottom 1em
+		
+		.evento_fila_info
+			
+			img
+				padding 1em
+			
+			.evento_fila_info_texto
+				padding 1em
+				
+				h3
+					color black
+					font-size 1.3em
+					font-weight 700
+					padding-top 0.5em
+					margin-bottom 0.2em
+					
+				.texto_descripcion_resumen
+					margin-bottom 0
+					padding 1em 0
+					
+			.evento_ubicacion_texto
+				padding 1.5em 2em
+				
+				h3
+					color black
+					font-size 1.2em
+					font-weight 700
+					padding-top 0.5em
+					
+				h4
+					color color_interface_one
+					font-size 0.9em
+					font-weight 700
+					
+				.texto_descripcion_resumen
+					margin-bottom 0
+					padding 1em 0
+					
+		/* EVENTO INFO - DESCRIPCIÓN */
+		.evento_programa_info_detalle_pic
+			padding 0
+			
+			figure
+				text-align center
+							
+				img
+					background white
+					border-radius 50%
+					border 6px solid gris_lite
+					border-image-slice 0
+					height 140px
+					width 140px
+					
+		.evento_programa_info_detalle_text
+			padding 2em
+			
+			h3
+				color black
+				font-size 1.2em
+				font-weight 700
+				margin-bottom 0.5em
+				
+			.p_info
+				color color_interface_one
+				font-size 1em
+				font-weight 700
+				margin-bottom 0
+				
+			.evento_programa_info_detalle_text_detalle
+				padding 1.5em 0 0 0
+					
+		/* ASISTENTES */
+		.evento_fila_asistente
+			padding 1em
+			
+			figure
+				text-align center
+							
+				img
+					background white
+					border-radius 50%
+					border 6px solid gris_lite
+					border-image-slice 0
+					height 75px
+					width 75px
+					
+			.evento_fila_info_texto
+				padding 1em
+				
+				h3
+					color black
+					font-size 1em
+					font-weight 700
+					margin-bottom 0.2em
+					
+				p
+					color color_interface_one
+					font-size 0.9em
+					font-weight 700
+					margin-bottom 0
+					
+				.p_texto_notificacion
+					color gris_dark
+					font-weight 400
+					
+		.evento_fila_hora
+
+			p
+				color color_interface_one
+				font-size 0.9em
+				font-weight 700
+				margin-bottom 0
+				
+				i
+					font-size 1.4em
+					padding-right 0.2em
+		
+		/* INFO BLOCK */
+		.info_block
+			padding 1em 2em
+			
+			img
+				max-width 400px
+				padding 1.5em 0
+				
+			h3
+				color black
+				font-size 1.4em
+				font-weight 700
+				margin-bottom 0.2em
+				
+			.link_web
+				color color_interface_one
+				font-weight 700
+				
+			.link_web:hover
+				color color_interface_two
+				
+			.p_info_block
+				font-size 1em
+				margin-bottom 0
+				padding 1.5em 0
+				
+			.evento_programa_info_detalle_text_detalle
+				padding 1.5em 0 0 0
+					
+	.evento_sponsors_stands
+		background-color white
+		position relative
+		margin-bottom 1em
+		padding 1em 2em 3em 2em
+		
+		.sponsor_type
+			
+			h2
+				color gris_light
+				font-size 1.2em
+				font-weight 800
+				margin-bottom 0
+				text-transform uppercase
+		
+		.logo_partner
+			padding 1em
+			
+		.logo_partner:hover
+			background-color gris_lite
+			
+	/* ENCUESTAS */
+	.evento_encuestas
+		
+		.evento_encuestas_formatos
+			background-color white
+			padding 2.5em
+			
+			h3
+				color black
+				font-size 1.4em
+				font-weight 700
+				margin-bottom 0.2em
+			
+			.encuesta_formato
+				padding 1em 0
+				
+				.p_pregunta
+					color color_interface_one
+					font-weight 700
+		
 .eventos_grilla
 	position relative
 	
 .estado_on
+	background-color green_live
+	font-weight 700
 	position absolute
+	padding 1em
 	top 0
-	left 0
+	right 0
+	
+	i
+		font-style bold
+		
+.estado_evento_on
+	background-color green_live
+	font-weight 700
+	position absolute
+	padding 1em
+	top 0
+	right 0
+	
+	i
+		font-style bold
 	
 .estado_fecha
 	position absolute
 	bottom 0
 	left 0
 	right 0
+	
+.tipo_formato
+	color gris_light
+	font-size 1em
+	font-weight 900
+	margin-bottom 0
+	
+footer
+	background black_light
+	
+	.footer_connectperu
+		padding 5em 0
+	
+		.logo_empresa_footer
+			
+			a
+				
+				img
+					max-width 200px
+					
+		.footer_menu
+			
+			a
+				color white
+				font-family 'Nunito', sans-serif
+				font-size 0.9em
+				font-weight 300
+				
+			a:hover
+				color gris_light
+					
+	.info_footer
+		background-color black
+		padding 1.8em 0
+		
+		p
+			color gris_dark
+			text-align center
+			font-size 0.85em
+			font-weight 400
+			padding 0
+			margin-bottom 0
+
+.dialogo_box
+	font-family 'Nunito', sans-serif
+	position fixed
+	top 56px
+	right 0
+	
+	.callout
+		background-color rgba(green_live 0.8)
+		
+		h5
+			font-weight 500
+			
+		.close-button
+			color black
+			
+		.close-button:hover
+			color white
+
+/* ENCUESTA - RATING */			
+.rating-block {
+  padding: 2px 5px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rating-block .ratings-type {
+  margin-right: 1rem;
+  margin-bottom: 0;
+}
+
+.rating-block .rating-block {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.rating-block .rating-block-rating {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rating-block .star {
+  cursor: pointer;
+  stroke: color_interface_one
+}
+
+.rating-block .rating-block-rating .star.selected polygon {
+  fill: color_interface_one
+}
+
+.rating-block .rating-block-rating.is-voted .star polygon {
+  fill: color_interface_one
+}
+
+.rating-block .rating-block-rating.is-voted .star.selected ~ .star polygon {
+  fill: transparent;
+}
+
+
