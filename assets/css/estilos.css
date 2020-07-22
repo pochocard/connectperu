@@ -60,7 +60,9 @@ body {
   z-index: 1;
 }
 .menu_home li a {
+  font-size: 0.9em;
   color: #fff;
+  padding: 0 0 0 1em;
 }
 .menu_home li a:hover {
   color: #eaeaea;
@@ -105,6 +107,7 @@ body {
 .menu_link a {
   background-color: #b7b9c7;
   color: #fff;
+  font-size: 0.85em;
   padding-left: 0;
   margin-right: 0.3em;
 }
@@ -536,7 +539,7 @@ body {
   background-color: #52b100;
   border-radius: 14px;
   color: #fff;
-  padding: 0.7em 0.8em 1.4em 0.8em;
+  padding: 0.6em 0.7em 1.2em 0.7em;
   position: absolute;
   top: 170px;
   right: 50px;
@@ -651,13 +654,13 @@ body {
   color: #fff;
   text-align: center;
   height: 138px;
-  padding: 0.9em 0;
+  padding: 0.7em 0;
 }
 .contenedor_evento .evento_dashboard .botones_start .boton_start i {
   font-size: 3em;
 }
 .contenedor_evento .evento_dashboard .botones_start .boton_start p {
-  font-size: 0.95em;
+  font-size: 0.9em;
   font-weight: 700;
   margin: 0;
 }
@@ -678,11 +681,15 @@ body {
 .contenedor_filas .filas_search_date {
   font-size: 0.8em;
 }
+.contenedor_filas .filas_search_date .input_filter {
+  margin-bottom: 0;
+}
 .contenedor_filas .filas_search_date .input-group-field {
   margin-bottom: 0;
 }
 .contenedor_filas .boton_search {
   background-color: #05a8e0;
+  height: 38.5px;
 }
 .contenedor_filas h2 {
   color: #b7b9c7;
@@ -804,7 +811,7 @@ body {
   padding: 1.5em 0 0 0;
 }
 .contenedor_filas .evento_fila_block .evento_fila_asistente {
-  padding: 1em;
+  padding: 1em 0;
 }
 .contenedor_filas .evento_fila_block .evento_fila_asistente figure {
   text-align: center;
@@ -822,13 +829,13 @@ body {
 }
 .contenedor_filas .evento_fila_block .evento_fila_asistente .evento_fila_info_texto h3 {
   color: #000;
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 700;
   margin-bottom: 0.2em;
 }
 .contenedor_filas .evento_fila_block .evento_fila_asistente .evento_fila_info_texto p {
   color: #05a8e0;
-  font-size: 0.9em;
+  font-size: 0.85em;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -850,7 +857,6 @@ body {
   padding: 1em 2em;
 }
 .contenedor_filas .evento_fila_block .info_block img {
-  max-width: 400px;
   padding: 1.5em 0;
 }
 .contenedor_filas .evento_fila_block .info_block h3 {
